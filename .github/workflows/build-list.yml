@@ -17,7 +17,6 @@ jobs:
     - run: ls -lh gfwlist_hosts.txt
     - uses: actions/upload-artifact@v2
       with:
-        name: gfwlist
         path: gfwlist_hosts.txt
 
       env:
