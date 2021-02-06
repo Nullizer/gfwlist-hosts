@@ -12,6 +12,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         check-latest: true
+    - run: node -v && npm -v
     - run: npm install
     - run: node . > gfwlist_hosts.txt
     - run: ls -lh gfwlist_hosts.txt
