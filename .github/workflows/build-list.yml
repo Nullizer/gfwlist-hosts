@@ -9,8 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: curl -sL https://deb.nodesource.com/setup_current.x | bash -
-    - run: apt-get install -y nodejs
+    - run: curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+    - run: sudo apt-get install -y nodejs
     - run: node -v && npm -v
     - run: npm install
     - run: node . > gfwlist_hosts.txt
