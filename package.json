@@ -10,7 +10,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@babel/core": "^7.14.2",
+    "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.14.2",
     "@babel/plugin-syntax-top-level-await": "^7.12.13",
     "eslint": "^7.26.0",
